@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Zilla+Slab&display=swap');
+
+body {
+    background-color: #6C2183;
+    text-align: center;
+    color: #f5f1f1;
+    font-family: Zilla Slab, sans-serif;
+    box-sizing: border-box;
+}
+.webForm {
+    margin: 10px 50px;
+    background-color: #fff;
+    color: #000;
+}
