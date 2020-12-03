@@ -10,26 +10,32 @@
 </head>
 
 <body>
-    <h3>A simple web form with basic validations</h3>
-    <form id="webForm" class="webForm">
-        <div>
-            <label for="userName">User Name</label>
-            <input type="text" id="userName">
-        </div>
-        <div>
-            <label for="emailId">Email Id</label>
-            <input type="email" id="emailId">
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" id="password">
-        </div>
-        <div>
-            <button id="sumbit">Register</button>
-        </div>
-    </form>
-
-
+    <div>
+        <h2>A simple web form with basic validations</h2>
+    </div>
+    <div class="container">
+        <form id="webForm">
+            <h3>Register with Us</h3>
+            <div class="form-control">
+                <label for="userName">User Name</label>
+                <input type="text" id="userName" placeholder="Enter the User Name">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="emailId">Email Id</label>
+                <input type="email" id="emailId" placeholder="Enter the Email ID">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter the Password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <button id="sumbit">Register</button>
+            </div>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 
