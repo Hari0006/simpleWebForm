@@ -21,7 +21,12 @@ body {
     border-radius: 5px;
     box-shadow: 10px 15px 18px rgb(7, 33, 51);
     color: rgb(12, 88, 29);
-    margin-left: auto;
+    margin: 0 10% 0 auto;
+    padding-bottom: 10px;
+}
+.web-form {
+    align-items: center;
+    justify-content: center;
 }
 h2 {
     text-align: center;
@@ -34,6 +39,7 @@ h2 {
 h3 {
     text-align: center;
 }
+
 .form-control {
     padding: 3px 15px;
 }
@@ -49,4 +55,15 @@ h3 {
 .form-control input:focus {
     outline: 0;
     border-color: #7b288b;
+}
+.form-control button {
+    background-color: rgb(21, 87, 67);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 0;
+    border: 0;
+    box-shadow: 1px 1px 1px rgb(19, 20, 59);
+    min-width: 40%;
+    font-size: 18px;
 }
